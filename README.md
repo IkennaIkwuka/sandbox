@@ -1,18 +1,10 @@
-# Django Learning Sandbox
+# Sandbox
 
-Sandbox for learning Django, following the [W3Schools Django tutorial](https://www.w3schools.com/django/).
-Not production code — this is a working space for tutorial exercises, experiments, and notes as I go.
+General-purpose sandbox for learning exercises, tutorials, and experiments across different languages and tools.
+Not production code — each subfolder is its own self-contained learning project, with its own README.
 
 ## Contents
 
-- **my_tennis_club/** — the main tutorial project, including the `members` app (models, views, admin).
+- **django_tutorials/** — learning Django via the W3Schools tutorial.
 
-## Setup
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install django
-cd my_tennis_club
-python manage.py runserver
-```
+More subfolders will be added here as I pick up new tutorials/languages.
